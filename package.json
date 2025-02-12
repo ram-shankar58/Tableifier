@@ -1,6 +1,6 @@
 {
   "name": "tableifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tableifier is a customisable Table maker supporting various in built operations such as sorting, string matching and more. This React component uses Bulma for customised styling.",
   "main": "src/index.js",
   "scripts": {
