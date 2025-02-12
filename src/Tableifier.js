@@ -3,7 +3,10 @@ import './Tableifier.css';
 import 'bulma/css/bulma.css';
 import { FilterList } from '@mui/icons-material';
 
-const Tableifier = ({ columns, rows }) => {
+// import FilterListIcon from '@mui/icons-material/FilterList';
+
+
+const Tableifier = ({ columns=[], rows=[] }) => {
   const [filterOptions, setFilterOptions] = useState({});
   const [sortConfig, setSortConfig] = useState(null);
   const [activeFilterColumn, setActiveFilterColumn] = useState(null);
