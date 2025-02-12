@@ -1,0 +1,36 @@
+{
+  "name": "tableifier",
+  "version": "1.0.0",
+  "description": "Tableifier is a customisable Table maker supporting various in built operations such as sorting, string matching and more. This React component uses Bulma for customised styling.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files --ignore 'src/**/*.test.js'",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram-shankar58/Tableifier.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "bulma",
+    "customize",
+    "tablemaker",
+    "sortable",
+    "filter"
+  ],
+  "author": "R Ram Shankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ram-shankar58/Tableifier/issues"
+  },
+  "homepage": "https://github.com/ram-shankar58/Tableifier#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3"
+  }
+}
