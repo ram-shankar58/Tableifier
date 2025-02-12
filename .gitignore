@@ -1,2 +1,5 @@
 node_modules/
-.npmignore/
+.npmignore
+__mocks__/
+.babelrc
+*.test.js
